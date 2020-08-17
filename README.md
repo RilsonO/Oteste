@@ -24,3 +24,7 @@ O projeto consiste em um criar um App que possua uma tela de login, cadastro, e 
 * Fetch (requisição).
 * CheckBox: https://github.com/react-native-community/react-native-checkbox
 * AsyncStorage: https://github.com/react-native-community/async-storage
+
+**NOTAS**
+
+* Documentar todo o código desenvolvido.
