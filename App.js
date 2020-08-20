@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {View, Text, FlatList} from 'react-native';
 
 import FeedItem from './src/components/feedItem';
-
+//test manoel //
 export default class App extends Component {
   constructor(props) {
     super(props);
