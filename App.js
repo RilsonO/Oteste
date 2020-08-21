@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {View, Text, FlatList} from 'react-native';
+import React, { Component } from 'react';
+import { View, Text, FlatList } from 'react-native';
 
 import FeedItem from './src/components/feedItem';
 //test manoel //
@@ -34,10 +34,10 @@ export default class App extends Component {
         }}>
         <Text>Minha lista de nomes</Text>
         <FlatList
-          style={{flex: 1, width: '100%'}}
+          style={{ flex: 1, width: '100%' }}
           data={this.state.lista}
           keyExtractor={(item, index) => index.toString()}
-          renderItem={({item}) => <FeedItem item={item} />}
+          renderItem={({ item }) => <FeedItem item={item} />}
         />
       </View>
     );
